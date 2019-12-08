@@ -16,7 +16,7 @@ print('-'*40)
 
 # get user input for city (Chicago, New York City, Washington). HINT: Use a while loop to handle invalid inputs
 def get_filters():
-    global city, month, day #needed in other function load_data()
+    global city, month, day #needed in other function load_data(). Alternative coding should be done.
 
     # start request for user input for city:
     while True:

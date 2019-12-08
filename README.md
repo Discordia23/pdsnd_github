@@ -14,6 +14,6 @@ new_york_city.csv
 chicago.csv
 
 #### Credits
-Udacity
-Data provided by Motivate bike share system provider
-Stackoverflow
+[Udacity](https://www.udacity.com)
+Data provided by [Motivate](https://www.motivateco.com/) bike share system provider
+[Stackoverflow](https://stackoverflow.com/)

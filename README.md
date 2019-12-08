@@ -21,6 +21,7 @@ List of statistics:<br/>
 * chicago.csv
 
 #### Credits
+My mentor Mercy M. <br/>
 [Udacity](https://www.udacity.com)<br/>
 Data provided by [Motivate](https://www.motivateco.com/) bike share system provider<br/>
 [Stackoverflow](https://stackoverflow.com/)

@@ -16,7 +16,7 @@ print('-'*40)
 
 # get user input for city (Chicago, New York City, Washington). HINT: Use a while loop to handle invalid inputs
 def get_filters():
-    global city, month, day #needed in other function load_data()
+    global city, month, day #needed in other function load_data(). Alternative coding should be done.
 
     # start request for user input for city:
     while True:
@@ -251,15 +251,15 @@ def user_stats(df):
 
 
 def raw_data(df):
-    """Displays a random sample of 5 rows of raw data."""
+    """Displays a random sample of 10 rows of raw data."""
 
     print('\nSample of raw data...\n')
-    print(df.sample(5))
+    print(df.sample(10))
     while True:
         # Display 5 new rows if user types 'yes'. Display stops if user types 'no'.
         more_data = (input('\nDo you want to see more raw data? Enter yes or no.\n')).lower()
         if more_data == 'yes':
-            print(df.sample(5))
+            print(df.sample(10))
         elif more_data == 'no':
             break
         else:
